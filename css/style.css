@@ -1,0 +1,117 @@
+@-webkit-keyframes wall {
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@-webkit-keyframes texta {
+	0%{opacity: 0;}
+	10%{opacity: 1;}
+	30%{opacity: 0;}
+	100%{opacity: 0;}
+}
+@-webkit-keyframes textb {
+	0%{opacity: 1;}
+	10%{opacity: 0;}
+	30%{opacity: 1;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes mome {
+	0%{opacity: 0;}
+	7%{opacity: 1;}
+	80%{opacity: 1;}
+	90%{opacity: 0;}
+	100%{opacity: 0;}
+}
+@-webkit-keyframes paper {
+	0%{opacity: 0; transform: translate(0px,0px);}
+	1%{opacity: 1; transform: translate(0px,0px);}
+	18%{transform: translate(110px,58px) rotate(-50deg);}
+	37%{transform: translate(23px,110px) rotate(-10deg);}
+	67%{opacity: 1; transform: translate(223px,160px) rotate(-65deg);}
+	75%{opacity: 0; transform: translate(223px,160px) rotate(-65deg);}
+	100%{opacity: 0; transform: translate(223px,160px) rotate(-65deg);}
+}
+
+@-webkit-keyframes noise {
+	0%{opacity: 0;}
+	20%{opacity: 0.1;}
+	50%{opacity: 0.05;}
+	55%{opacity: 0;}
+	100%{opacity: 0;}
+}	
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+body {font-family: 'Noto Serif KR', serif;}
+.bg{width: 100%; 
+	height: 100%; 
+	background-color: white;
+	position: absolute;}
+.img{width: 100%; 
+	height: 100%; 
+	position: absolute;}
+.bgani{animation: wall; animation-direction: alternate; animation-duration: 3s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+
+.aa1{animation: texta;  animation-fill-mode: backwards; animation-duration: 12s; animation-iteration-count: infinite;}
+.aa2{animation: texta;  animation-fill-mode: backwards; animation-duration: 12s; animation-delay: 2s; animation-iteration-count: infinite;}
+.aa3{animation: texta;  animation-fill-mode: backwards; animation-duration: 12s; animation-delay: 5s; animation-iteration-count: infinite;}
+.aa4{animation: texta;  animation-fill-mode: backwards; animation-duration: 12s; animation-delay: 8s; animation-iteration-count: infinite;}
+.aa5{animation: texta;  animation-fill-mode: backwards; animation-duration: 12s; animation-delay: 11s; animation-iteration-count: infinite;}
+.aa6{animation: texta;  animation-fill-mode: backwards; animation-duration: 12s; animation-delay: 16s; animation-iteration-count: infinite;}
+
+.bb1{animation: textb;  animation-duration: 12s; animation-iteration-count: infinite;}
+.bb2{animation: textb;  animation-duration: 12s; animation-delay: 2s; animation-iteration-count: infinite;}
+.bb3{animation: textb;  animation-duration: 12s; animation-delay: 5s; animation-iteration-count: infinite;}
+.bb4{animation: textb;  animation-duration: 12s; animation-delay: 8s; animation-iteration-count: infinite;}
+.bb5{animation: textb;  animation-duration: 12s; animation-delay: 11s; animation-iteration-count: infinite;}
+.bb6{animation: textb;  animation-duration: 12s; animation-delay: 16s; animation-iteration-count: infinite;}
+
+.wall1{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 2s; animation-iteration-count: 1;}
+.wall2{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 5s; animation-iteration-count: 1;}
+.wall3{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 8s; animation-iteration-count: 1;}
+.wall4{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 11s; animation-iteration-count: 1;}
+.wall5{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 14s; animation-iteration-count: 1;}
+.wall6{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 17s; animation-iteration-count: 1;}
+.wall7{animation: wall; animation-fill-mode: forwards; animation-duration: 4s; animation-delay: 20s; animation-iteration-count: 1;}
+
+.m0{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 4s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+
+.m1{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m2{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3.1s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m3{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3.2s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m4{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3.5s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m5{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3.6s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m6{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3.7s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m7{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 3.9s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m8{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 4s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+.m9{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 4.1s; animation-iteration-count: infinite; animation-timing-function: ease-in;}
+
+.mm{animation: mome;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 4.8s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+
+
+.noise{animation: noise;  animation-fill-mode: backwards; animation-duration: 15s; animation-delay: 5s; animation-iteration-count: infinite;}
+
+.thomas{width: 140px; height:441px; bottom: 61px; right: calc(50% - 70px); position: absolute;}
+.thomas2{width:7.3%; height:40.83%; bottom: 61px; right: calc(50% - 70px); position: absolute;}
+.paper1{width: 45px; height: 58px; bottom: 203px; right: calc(50% - 80px); position: absolute; animation: paper; animation-delay: 3s; animation-fill-mode: backwards; animation-duration: 12s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+.h1{position: absolute; width: 360px; right: calc(50% - 170px); text-align: center; bottom: 13.3%; margin: auto; font-weight:900; font-size:3.1em; padding-top: 5px; margin-bottom: 0px; color: white; word-spacing:-1px; word-break: keep-all;}
+p {position: absolute; width: 400px; bottom: 21%; right: calc(50% - 200px); text-align: center; margin-bottom:0px; font-size:0.8em; font-weight:600; word-spacing:-1px; word-break: keep-all; color: white; }
+.p1 {position: absolute; width: 400px; bottom: 7.5%; right: calc(50% - 200px); text-align: center; margin-bottom:0px; font-size:1.2em; font-weight:600; word-spacing:-1px; word-break: keep-all; color: white; }
+.p2 {position: absolute; width: 400px; bottom: 4.9%; right: calc(50% - 200px); text-align: center; margin-bottom:0px; font-size:0.7em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; }
+.p3 {position: absolute; width: 400px; top: 5.9%; right: calc(50% - 200px); text-align: center; margin-bottom:0px; font-size:0.7em; font-weight:600; word-spacing:-1px; word-break: keep-all; color: white; }
+.p4 {position: absolute; width: 400px; top: 8%; right: calc(50% - 200px); text-align: center; margin-bottom:0px; font-size:1.2em; font-weight:600; word-spacing:-1px; word-break: keep-all; color: white; }
+
+.t1 {position: absolute; width: 220px; top: 7%; left: calc(16.6% - 110px); margin-bottom:0px; line-height: 210%; text-align: left; font-size:0.8em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; opacity: 60%;}
+.t2 {position: absolute; width: 220px; top: 7%; left: calc(33.2% - 110px); margin-bottom:0px; line-height: 210%; text-align: left; font-size:0.8em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; opacity: 60%;}
+.t3 {position: absolute; width: 220px; top: 7%; left: calc(49.8% - 110px); margin-bottom:0px; line-height: 210%; text-align: left; font-size:0.8em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; opacity: 60%;}
+.t4 {position: absolute; width: 220px; top: 7%; left: calc(66.4% - 110px); margin-bottom:0px; line-height: 210%; text-align: left; font-size:0.8em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; opacity: 60%;}
+.t5 {position: absolute; width: 220px; top: 7%; left: calc(83% - 110px); margin-bottom:0px; line-height: 210%; text-align: left; font-size:0.8em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; opacity: 60%;}
+.t6 {position: absolute; width: 220px; top: 7%; left: calc(99.6% - 110px); margin-bottom:0px; line-height: 210%; text-align: left; font-size:0.8em; font-weight:500; word-spacing:-1px; word-break: keep-all; color: white; opacity: 60%;}
+
+.a1 {position: absolute; width: 220px; top: 7%; left: calc(16.6% - 110px); margin-bottom:0px; text-align: left; font-size:0.9em; font-weight:600; word-spacing:-1px; word-break: keep-all; line-height: 210%; color: white; }
+.a2 {position: absolute; width: 220px; top: 55%; left: calc(33.2% - 110px); margin-bottom:0px; text-align: left; font-size:0.9em; font-weight:600; word-spacing:-1px; word-break: keep-all; line-height: 210%; color: white; }
+.a3 {position: absolute; width: 220px; top: 20%; left: calc(49.8% - 110px); margin-bottom:0px; text-align: left; font-size:0.9em; font-weight:600; word-spacing:-1px; word-break: keep-all; line-height: 210%; color: white; }
+.a4 {position: absolute; width: 220px; top: 12%; left: calc(66.4% - 110px); margin-bottom:0px; text-align: left; font-size:0.9em; font-weight:600; word-spacing:-1px; word-break: keep-all; line-height: 210%; color: white; }
+.a5 {position: absolute; width: 220px; top: 35%; left: calc(83% - 110px); margin-bottom:0px; text-align: left; font-size:0.9em; font-weight:600; word-spacing:-1px; word-break: keep-all; line-height: 210%; color: white; }
+.a6 {position: absolute; width: 220px; top: 50%; left: calc(99.6% - 110px); margin-bottom:0px; text-align: left; font-size:0.9em; font-weight:600; word-spacing:-1px; word-break: keep-all; line-height: 210%; color: white; }
+.tt{width: 90%; 
+	height: 80%; 
+	 position: absolute; display: flex; top: 20%; right:13%;}
